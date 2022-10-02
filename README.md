@@ -26,7 +26,7 @@
     *目前没有加入
 
 
-##运行前要做的工作
+## 运行前要做的工作
 
 * 在application.properties里的spring.datasource.username和spring.datasource.password改成自己mysql的账户密码，并且在那个账户里创建metacube 表
 * 使用eclipse 运行代码，并且compiler的版本号是 11 (IDEA也能跑这个项目，如果对于修改版本号有问题 可看链接：https://blog.csdn.net/qq_39044199/article/details/79446267)
