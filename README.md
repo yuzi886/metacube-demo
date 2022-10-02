@@ -1,9 +1,10 @@
 # 元立方
+
 元立方NFT交易平台demo版本
 
 
 ## 基础框架
-1.src/main/java (包含了网络运行文件）
+1. src/main/java (包含了网络运行文件）
     * com.metacube.demo 
         * 包含了main class，当你需要运行整一个网站的时候，需要跑这个包里面的文件
     * com.metacube.demo.entities 
@@ -27,6 +28,6 @@
 
 ##运行前要做的工作
 
-1. 在application.properties里的spring.datasource.username和spring.datasource.password改成自己mysql的账户密码，并且在那个账户里创建metacube 表
-2. 使用eclipse 运行代码，并且compiler的版本号是 11 (IDEA也能跑这个项目，如果对于修改版本号有问题 可看链接：https://blog.csdn.net/qq_39044199/article/details/79446267)
-3. 对com.metacube.demo 包里的文件 MetacubeApplication 右键——> run as——>Spring Boot App
+* 在application.properties里的spring.datasource.username和spring.datasource.password改成自己mysql的账户密码，并且在那个账户里创建metacube 表
+* 使用eclipse 运行代码，并且compiler的版本号是 11 (IDEA也能跑这个项目，如果对于修改版本号有问题 可看链接：https://blog.csdn.net/qq_39044199/article/details/79446267)
+* 对com.metacube.demo 包里的文件 MetacubeApplication 右键——> run as——>Spring Boot App
