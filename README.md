@@ -30,4 +30,6 @@
 
 * 在application.properties里的spring.datasource.username和spring.datasource.password改成自己mysql的账户密码，并且在那个账户里创建metacube 表
 * 使用eclipse 运行代码，并且compiler的版本号是 11 (IDEA也能跑这个项目，如果对于修改版本号有问题 可看链接：https://blog.csdn.net/qq_39044199/article/details/79446267)
+* 使用eclipse clone 这个github 的方式可看这个链接(https://www.geeksforgeeks.org/how-to-clone-a-project-from-github-using-eclipse/)
 * 对com.metacube.demo 包里的文件 MetacubeApplication 右键——> run as——>Spring Boot App
+
